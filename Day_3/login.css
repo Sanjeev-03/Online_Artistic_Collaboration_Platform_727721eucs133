@@ -1,0 +1,62 @@
+
+.App {
+  background-image: url("backf.jpg");
+  height: 790px;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  object-fit: contain;
+  background-attachment: fixed;
+  /* height: 800px;
+  width: 1520px; */
+  /* width: 100%; */
+}
+
+body {
+  background-size: cover;
+  /* padding-top: 200px; */
+  object-fit: contain;
+  color: #171212;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+fieldset {
+  padding: 100px;
+  margin-top: 110px;
+  border-radius: 5%;
+  font-weight: 500;
+  margin-left: 35%;
+  margin-right: 35%;
+  backdrop-filter: blur(4px);
+}
+
+input {
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+label {
+  margin-right: 60px;
+  margin: 10px;
+}
+
+button {
+  padding: 0.3rem;
+  font-size: 15px;
+  background-color: rgb(9, 17, 6);
+  border: 4px solid #ccc;
+  color: #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,15 @@
+.body{
+  background-color: rgb(91, 82, 82);
+
+  background-image: none;
+  height: 730px;
+
+  font-size: 25px;
+  text-align: center;
+  color: beige;
+}
+
+
+.hm{
+  color: antiquewhite;
+}
