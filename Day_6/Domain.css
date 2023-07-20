@@ -1,0 +1,80 @@
+.wel {
+  padding-top: 50px;
+  text-align: center;
+  color: rgb(1, 1, 0);
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h1 {
+  display: flex;
+}
+
+.t1 {
+  padding-top: 200px;
+  padding-bottom: 70px;
+  padding-left: 220px;
+  display: block;
+}
+
+.t2 {
+  padding-top: 200px;
+  padding-bottom: 70px;
+  padding-left: 120px;
+}
+
+.h2 {
+  display: flex;
+}
+
+.t3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 220px;
+
+  display: block;
+}
+
+.t4 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 120px;
+}
+
+.h3 {
+  display: flex;
+}
+
+.t5 {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 220px;
+
+  display: block;
+}
+
+.t6 {
+  padding-top: 100px;
+  padding-bottom: 200px;
+  padding-left: 120px;
+}
+
+.t1:hover {
+  transform: scale(1.1);
+  /* border-color: black; */
+}
+.t2:hover {
+  transform: scale(1.1);
+}
+.t3:hover {
+  transform: scale(1.1);
+}
+.t4:hover {
+  transform: scale(1.1);
+}
+.t5:hover {
+  transform: scale(1.1);
+}
+.t6:hover {
+  transform: scale(1.1);
+}

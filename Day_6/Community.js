@@ -3,7 +3,7 @@ import { Card, CardContent, Container, Grid, Typography } from "@mui/material";
 import "./Project.css";
 import ResponsiveAppBar from "./navbar";
 
-function Projects() {
+function Community() {
   return (
     <Container className="card-container">
       <ResponsiveAppBar />
@@ -12,10 +12,10 @@ function Projects() {
           <Card className="card" >
             <CardContent className="card-content" style={{backgroundColor:"lightgray"}}>
               <Typography variant="h5" component="h2" className="card-title">
-                Project 1
+                Author 1
               </Typography>
               <Typography color="textSecondary" className="card-text">
-                Content for Project 1
+                Profile of Author 1
               </Typography>
             </CardContent>
           </Card>
@@ -24,10 +24,30 @@ function Projects() {
           <Card className="card">
             <CardContent className="card-content" style={{backgroundColor:"lightgray"}}>
               <Typography variant="h5" component="h2" className="card-title">
-              Project 2
+              Author 2
               </Typography>
               <Typography color="textSecondary" className="card-text">
-                Content for Project 2
+              Profile of Author 1
+              </Typography>
+            </CardContent>
+          </Card>
+          <Card className="card">
+            <CardContent className="card-content" style={{backgroundColor:"lightgray"}}>
+              <Typography variant="h5" component="h2" className="card-title">
+              Author 3
+              </Typography>
+              <Typography color="textSecondary" className="card-text">
+              Profile of Author 3
+              </Typography>
+            </CardContent>
+          </Card>
+          <Card className="card">
+            <CardContent className="card-content" style={{backgroundColor:"lightgray"}}>
+              <Typography variant="h5" component="h2" className="card-title">
+              Author 4
+              </Typography>
+              <Typography color="textSecondary" className="card-text">
+              Profile of Author 4
               </Typography>
             </CardContent>
           </Card>
@@ -37,5 +57,5 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default Community;
 
