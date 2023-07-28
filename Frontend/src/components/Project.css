@@ -1,0 +1,94 @@
+/* Project.css */
+
+/* Global styles */
+.probody {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+/* Navbar styles */
+.app-bar {
+  background-color: #444;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styles for the entire container */
+.card-container {
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Styles for individual cards */
+.card {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  text-align: center;
+  padding: 20px; /* Increased padding for better spacing */
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333333; /* Dark gray color for the title */
+}
+
+.card-text {
+  font-size: 16px;
+  color: #555555; /* Medium gray color for the text */
+  margin-bottom: 8px;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+  .card-container {
+    padding-top: 50px;
+  }
+
+  .card {
+    width: 250px;
+    height: 200px;
+  }
+
+  .card-content {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 18px;
+  }
+
+  .card-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    width: 90%;
+  }
+}

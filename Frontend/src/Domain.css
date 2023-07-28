@@ -1,0 +1,71 @@
+/* Domain.css */
+
+/* Styles for wel-container to center "wel" class */
+.wel-container {
+  display: flex;
+  justify-content: center; /* Center the "wel" class horizontally */
+  align-items: center; /* Center the "wel" class vertically */
+  /* height: 100vh;  */
+  /* Ensure the container takes the full viewport height */
+}
+
+.wel {
+  padding-top: 20px; /* Reduce the top padding */
+  text-align: center;
+  color: rgb(1, 1, 0);
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-container {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; /* Increase the top margin for more space */
+}
+
+.project-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Increase the spacing between project items in the row */
+}
+
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 350px; /* Increase the maximum width for larger images */
+  margin: 50px; /* Add more space around each project item */
+}
+
+.project-image {
+  height: 480px; /* Increase the image height for larger images */
+  max-width: 300%; /* Allow the image to scale down proportionally within the container */
+  transition: transform 0.2s ease-in-out; /* Add a smooth transition on hover */
+}
+
+.project-title {
+  margin-top: 40px;
+  font-size: 24px; /* Slightly increase the font size */
+  font-family: serif;
+}
+
+/* Hover effect */
+.project-item:hover .project-image {
+  transform: scale(1.1);
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 1200px) {
+  .project-row {
+    flex-direction: column;
+  }
+  .project-item {
+    margin: 20px; /* Adjust the margin for smaller screens */
+  }
+  .project-image {
+    height: 300px; /* Adjust the image height for smaller screens */
+  }
+}
